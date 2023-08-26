@@ -8,21 +8,20 @@ import { useNavigate } from "react-router-dom";
 
 
 function Layout() {
-
    const navigate = useNavigate();
 
     return(
- <>
-     <div className="header">
-        <div><Link to={"/"}><h2>Home</h2></Link> </div>
-        <div><Link to={"/todos"}><h2>Todos</h2></Link> </div>
-        <button onClick={() => {signOut(auth); navigate('./')}}>Log Out</button>
-     </div>
+     <>
+      <div className="header">
+          <div><Link to={"/"}><h2>Home</h2></Link> </div>
+          <div><Link to={"/todos"}><h2>Todos</h2></Link> </div>
+          <button onClick={() => {signOut(auth); navigate('./')}}>Log Out</button>
+      </div>
      <div className="outlet">
-     <Outlet/>
+          <Outlet/>
      </div>
      <div className="footer">
-        All Rights Reserved
+           All Rights Reserved
      </div>
  </>
  );

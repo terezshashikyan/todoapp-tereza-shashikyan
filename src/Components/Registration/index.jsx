@@ -26,6 +26,7 @@ export const Registration = () => {
         <h1>Todos</h1>
         
         <form className="registration-form" onSubmit={handleUserRegistration}>
+          
           <input
             type = "email"
             id = 'email'
