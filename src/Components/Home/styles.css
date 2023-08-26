@@ -1,22 +1,28 @@
 .homepage-section {
     display: flex;
-    flex-direction: column;
-    gap: 5%;
-    align-items: start;
-    padding: 10% 10%;
+    gap: 25px;
+    align-items: center;
+    padding: 80px 0;
 }
 
+.homepage-section .text {
+    display: grid;
+    gap: 30px;
+}
 
-
-.homepage-section  h1 {
+.homepage-section .text h1 {
    font-size: 148px;
 }
 
-.homepage-section h1::after {
+.homepage-section .text h1::after {
     content: "";
     width: 100px;
     height: 5px;
     border-bottom: 8px solid #ffffff;
     display: block;
     border-radius: 15px;
+ }
+
+ .homepage-section .image img {
+    border-radius: 50%;
  }
