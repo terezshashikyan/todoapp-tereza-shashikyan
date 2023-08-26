@@ -1,11 +1,11 @@
 .todo-item {
     display: flex;
+    max-width: 80vh;
+    min-width: 80vh;
     flex-direction: row;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     gap: 30px;
-    padding: 3%;
-    margin: 3%;
   }
 
   .todo-item .doneButton {
