@@ -1,0 +1,22 @@
+.homepage-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: start;
+    padding: 10% 10%;
+}
+
+
+
+.homepage-section  h1 {
+   font-size: 148px;
+}
+
+.homepage-section h1::after {
+    content: "";
+    width: 100px;
+    height: 5px;
+    border-bottom: 8px solid #ffffff;
+    display: block;
+    border-radius: 15px;
+ }

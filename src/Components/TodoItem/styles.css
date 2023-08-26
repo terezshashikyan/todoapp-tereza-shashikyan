@@ -1,0 +1,13 @@
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    padding: 3%;
+    margin: 3%;
+  }
+
+  .todo-item .doneButton {
+    border-color: greenyellow;
+  }
