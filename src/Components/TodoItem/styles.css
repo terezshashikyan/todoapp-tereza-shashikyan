@@ -1,0 +1,13 @@
+.todo-item {
+    display: flex;
+    max-width: 80vh;
+    min-width: 80vh;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+  }
+
+  .todo-item .doneButton {
+    border-color: greenyellow;
+  }
