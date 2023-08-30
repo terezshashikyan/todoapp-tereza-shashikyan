@@ -1,6 +1,10 @@
 # todoapp-tereza-shashikyan
 Todo App 
 
+I have deployed the project in Netlify free tier: here is the link the the app.
+
+https://64ef940d509dc16e03bab2fb--todoapp-todos.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
